@@ -74,6 +74,6 @@ Vagrant.configure("2") do |config|
      sudo apt-get install -y python-setuptools python-dev build-essential 
      sudo easy_install pip
      sudo pip install --upgrade virtualenv 
-     sudo apt-get install python-mysqldb
+     sudo apt-get install -y python-mysqldb
   SHELL
 end
